@@ -1,0 +1,238 @@
+/*--- Espaçamento nas laterias ---*/
+#body
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#projetos
+{
+    padding: 80px;
+}
+
+/*--- Fontes locais ---*/
+@font-face
+{
+    font-family: Nature;
+    src: url(fontes\nature.ttf);
+    font-family: Bebas Neue;
+    src: url(fontes\Bebas Neue.ttf);
+    font-family: Symtext;
+    src: url(fontes\Symtext.ttf);
+}
+
+/*--- Largura do navbar ---*/
+.navbar 
+{ 
+    height: 60px;
+}
+
+/*--- Tamanho dos links do navbar ---*/
+.nav-item 
+{
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+/*--- efeito ao passar o mouse por cima (cor do link e fundo) ---*/
+#inicio a
+{
+    color: inherit;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link 
+{
+    background: #fff;
+    color: #262626;
+}
+
+/*--- espaço entre os links --*/
+.navbar-light .navbar-nav .nav-item .nav-link
+{
+    color: #fff;
+    padding: 5px 15px;
+}
+
+/*--- Img de fundo ---*/
+#inicio 
+{
+    background: url(../imagens/planodefundo2.jpg);
+    position: relative;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+
+/*--- Formatação dos icones das redes sociais ---*/
+a:link
+{
+    text-decoration: none;
+}
+.fab 
+{
+    color: #fff;
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.fa-linkedin:hover
+{
+    color: #133C54;
+}
+.fa-github-square:hover
+{
+    color: #FF402B;
+}
+
+/*--- Formatação do texto e foto da seção SOBRE ---*/
+#ola
+{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-align: center;
+}
+img.fotoperfil
+{
+    border-radius: 50%;
+    border: 4px solid #E51600;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#apresentacao
+{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*--- Formatação dos títulos das seções ---*/
+.titulo-secao
+{
+    font-family: Bebas Neue;
+    color: #fff;
+}
+
+/*--- Formatação tabela e seção sobre ---*/
+#sobre{
+    background: #141115;
+}
+#sobre tbody
+{
+    text-align: center;
+    padding-top: 5px;
+    background: #fff;
+    border-left: solid 3px #fff;
+    border-bottom: solid 6px #fff;
+}
+#info
+{
+    background: black;
+    color: white;
+}
+#texto-branco{
+    color: white;
+}
+u{
+    text-decoration: none;
+    border-bottom: 3px solid #E51600;
+    font-style: italic;
+}
+
+/*--- Formatação da seção Skill ---*/
+#habilidades 
+{
+    background: #141115;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+div#border-skill.col-lg-3{
+    border: 1px solid #868686;
+    background: #141115;
+    
+}
+.container h6
+{
+    color: white;   
+    text-align: center;
+    padding: 8px 10px;
+    margin-bottom: 25px;
+}
+.cor-laranja{
+    background: #EF4510;
+}
+.cor-azul{
+    background: #0353A4;
+}
+.cor-roxa{
+    background: #3C0F53;
+}
+.cor-preta{
+    background: #000005;
+}
+.fab skill{
+    padding: 10px;
+    font-size: 50px;
+    padding-left: 45%;
+    text-decoration: none;
+}    
+.fa-html5{
+    color: #EF4510;
+}
+.fa-css3-alt{
+    color: #0353A4;
+}
+.fa-bootstrap{
+    color: #3C0F53;
+}
+.fa-desktop{
+    color: #fff;
+    font-size: 50px;
+    padding: 20px 10px 10px 10px;
+    text-decoration: none;
+}
+
+/*--- Formatação fundo da seção projetos ---*/
+#projetos{
+    background: #141115;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#img-academia{
+    margin-top: 1px;
+}
+#projetosfundo
+{
+    color: #fff;
+    border: 2px solid #fff;
+    padding-top: 5px;
+    background: #141115;
+}
+
+/*--- Formatação da seção experiência ---*/
+.img-fluid{
+    margin: 2px;
+    border: 1px solid #fff;
+}
+div#projetosfundo.col-lg-5{
+    background: #fff;
+}
+#experiencia{
+    background: #141115; 
+    padding-bottom: 20px;
+}
+/*--- Formatação da linha horizontal ---*/
+hr.horizontal-linha{ 
+    width: 3%;
+    border: 2px solid #D3D3D3;
+    margin-top: 0%;
+    margin-bottom: 0.2%;
+}
+hr.horizontal-linha2{ 
+    width: 5%;
+    border: 3px solid #D3D3D3;
+    margin-top: 0%;
+    margin-bottom: 0.2%;
+}
